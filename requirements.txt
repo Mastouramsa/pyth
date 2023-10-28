@@ -1,0 +1,4 @@
+ echo "SQLAlchemy==1.4.30">> requirements.txt 
+ echo "fastapi==0.70.0" >> requirements.txt
+ echo "requests==2.26.0">> requirements.txt
+ echo "pytest==7.4.3">> requirements.txt

@@ -1,0 +1,17 @@
+API Project and Data Recovery Script
+The goal of this project is to create an API to access an SQLite database and an interactive script to retrieve data from this API. The database we will use is the Chinook database.
+
+This project includes the following features:
+
+-Data Access API: An API that provides access points to extract information about artists, albums and music tracks from the Chinook database.
+
+-Data Retrieval Script: An interactive script that allows the user to retrieve specific data from the database. Script features include:
+
+Ask the user for an artist name and display matching artists.
+Ask the user for an artist ID and display matching album names.
+Ask the user for an album ID and display matching track names.
+Use of Packages: The project uses the following packages:
+
+SQLAlchemy to access the database.
+FastAPI to create the API.
+Requests for the data fetch script from the API.
